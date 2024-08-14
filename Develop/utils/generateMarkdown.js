@@ -1,7 +1,15 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
-  console.log(renderLicenseBadge('None'));
+  let badgeUrl = '';
+
+  switch (license) {
+    case 'ISC':
+      badgeUrl = 'https://img.shields.io/badge/License-ISC-blue.svg';
+      break;
+  }
+
+  return badgeUrl;
 }
 
 // TODO: Create a function that returns the license link
