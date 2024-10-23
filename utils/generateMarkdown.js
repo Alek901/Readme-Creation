@@ -54,45 +54,47 @@ This project is licensed under the ${license} license. For more information, see
 
 
 
-// TODO: Create a function to generate markdown for README
-function generateMarkdown(data) {
-  const data = {
-    title: 'ReadmeMagicCreation',
-    description: 'come back later and fill.',
-  }
+export function generateMarkdown(data) {
+  return `
+# ${data.title}
 
+${renderLicenseBadge(data.license)}
 
-  return `# ${data.title}
+## Description
+${data.description}
 
-  ## Description
-  ${data.description}
+## Table of Contents
+* [Installation](#installation)
+* [Usage](#usage)
+* [License](#license)
+* [Contributing](#contributing)
+* [Tests](#tests)
+* [Questions](#questions)
 
-  ## Table Of Contents
-  ${data.tableofcontents}
+## Installation
+${data.installation}
 
-  ## Installation
-  ${data.installation}
+## Usage
+${data.usage}
 
-  ## Usage
-  ${data.usage}
+${renderLicenseSection(data.license)}
 
- 
+## Contributing
+${data.contributing}
 
-  ## Contributing
-  ${data.contributing}
+## Tests
+${data.tests}
 
-  ## Tests
-  ${data.tests}
-
-  ## Questions
-  ${data.questions}
+## Questions
+For additional questions, you can reach me through:
+* GitHub: [${data.github}](https://github.com/${data.github})
+* Email: ${data.email}
 `;
 }
 
 
 
-
-export default generateMarkdown;
+export default generateMarkdown; 
 
 
 console.log(renderLicenseBadge('ISC'));
