@@ -1,10 +1,10 @@
 
-# alek
+# Readme.Creation!
 
-
+![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 ## Description
-alke
+This is a project to create simple and effective readme files!
 
 ## Table of Contents
 * [Installation](#installation)
@@ -15,24 +15,25 @@ alke
 * [Questions](#questions)
 
 ## Installation
-akakla
+npm install, then open the terminal in the /Readme-Creation route and then type node index.js 
 
 ## Usage
-aaaa
+To create simple readme files
 
 
 ## License
 
-This project is licensed under the None license. For more information, see [here]().
+This project is licensed under the MIT license. For more information, see [here](https://opensource.org/licenses/MIT).
     
 
 ## Contributing
-aaa
+happiness
 
 ## Tests
-aaa
+have fun
 
 ## Questions
 For additional questions, you can reach me through:
-* GitHub: [alek901](https://github.com/alek901)
+* GitHub: [Alek901](https://github.com/Alek901)
 * Email: magicguys1@icloud.com
+
